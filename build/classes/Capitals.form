@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="States and their Capitals"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="ff" red="66" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="285" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="State" pref="246" max="32767" attributes="0"/>
+                  <Component id="Capital" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="State" min="-2" pref="62" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="62" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Capital" alignment="3" min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" pref="73" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="496" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="State">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="1"/>
+        </Property>
+        <Property name="maximumRowCount" type="int" value="9"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="29">
+            <StringItem index="0" value="Jammu&amp;Kashmir"/>
+            <StringItem index="1" value="Himachal Pradesh"/>
+            <StringItem index="2" value="Punjab"/>
+            <StringItem index="3" value="Haryana"/>
+            <StringItem index="4" value="Uttrakhand"/>
+            <StringItem index="5" value="Rajasthan"/>
+            <StringItem index="6" value="Sikkim"/>
+            <StringItem index="7" value="Arunachal Pradesh"/>
+            <StringItem index="8" value="Assam"/>
+            <StringItem index="9" value="Nagaland"/>
+            <StringItem index="10" value="Manipur"/>
+            <StringItem index="11" value="Mizoram"/>
+            <StringItem index="12" value="Meghalaya"/>
+            <StringItem index="13" value="Tripura"/>
+            <StringItem index="14" value="Bihar"/>
+            <StringItem index="15" value="West Bengal"/>
+            <StringItem index="16" value="Jharkhand"/>
+            <StringItem index="17" value="Uttar Pradesh"/>
+            <StringItem index="18" value="Madhya Pradesh"/>
+            <StringItem index="19" value="Chattisgarh"/>
+            <StringItem index="20" value="Orissa"/>
+            <StringItem index="21" value="Gujarat"/>
+            <StringItem index="22" value="Maharashtra"/>
+            <StringItem index="23" value="Goa"/>
+            <StringItem index="24" value="Telangana"/>
+            <StringItem index="25" value="Karnataka"/>
+            <StringItem index="26" value="Andhra Pradesh"/>
+            <StringItem index="27" value="Tamil Nadu"/>
+            <StringItem index="28" value="Kerala"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="State"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Capital">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="1"/>
+        </Property>
+        <Property name="maximumRowCount" type="int" value="9"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="29">
+            <StringItem index="0" value="Srinagar"/>
+            <StringItem index="1" value="Shimla"/>
+            <StringItem index="2" value="Chandigarh"/>
+            <StringItem index="3" value="Chandigarh"/>
+            <StringItem index="4" value="Dehradun"/>
+            <StringItem index="5" value="Jaipur"/>
+            <StringItem index="6" value="Gangtok"/>
+            <StringItem index="7" value="Itanagar"/>
+            <StringItem index="8" value="Dispur"/>
+            <StringItem index="9" value="Kohima"/>
+            <StringItem index="10" value="Imphal"/>
+            <StringItem index="11" value="Aizawl"/>
+            <StringItem index="12" value="Shillong"/>
+            <StringItem index="13" value="Agartala"/>
+            <StringItem index="14" value="Patna"/>
+            <StringItem index="15" value="Kolkata"/>
+            <StringItem index="16" value="Ranchi"/>
+            <StringItem index="17" value="Lucknow"/>
+            <StringItem index="18" value="Bihar"/>
+            <StringItem index="19" value="Raipur"/>
+            <StringItem index="20" value="Bhubnaeshwar"/>
+            <StringItem index="21" value="Gandhinagar"/>
+            <StringItem index="22" value="Mumbai"/>
+            <StringItem index="23" value="Panaji"/>
+            <StringItem index="24" value="Hyderabad"/>
+            <StringItem index="25" value="Bengaluru"/>
+            <StringItem index="26" value="Hyderabad"/>
+            <StringItem index="27" value="Chennai"/>
+            <StringItem index="28" value="Thiruvantapuram"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Capital"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
